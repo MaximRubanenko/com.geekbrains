@@ -1,6 +1,6 @@
-package com.geekbrains.lesson1;
+package com.geekbrains.lesson0;
 
-import com.geekbrains.lesson1.animals.Cat;
+import com.geekbrains.lesson0.animals.Cat;
 
 public class MainApp {
   public static void main(String[] args) {

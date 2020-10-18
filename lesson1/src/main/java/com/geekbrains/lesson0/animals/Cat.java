@@ -1,4 +1,4 @@
-package com.geekbrains.lesson1.animals;
+package com.geekbrains.lesson0.animals;
 
 public class Cat extends Animal {
   // private - только из этого класса

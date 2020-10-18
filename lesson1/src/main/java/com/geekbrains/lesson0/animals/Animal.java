@@ -1,4 +1,4 @@
-package com.geekbrains.lesson1.animals;
+package com.geekbrains.lesson0.animals;
 
 public class Animal {
   String name;
