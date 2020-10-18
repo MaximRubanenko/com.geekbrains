@@ -1,4 +1,4 @@
-package com.geekbrain;
+package com.geekbrain.animals;
 
 public class Dog extends Animals {
   public String name;

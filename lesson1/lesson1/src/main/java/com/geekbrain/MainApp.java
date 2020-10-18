@@ -1,7 +1,16 @@
-import com.geekbrain.Animals;
-import com.geekbrain.Cat;
-import com.geekbrain.Dog;
-import com.geekbrain.Horse;
+/*
+import com.geekbrain.animals.Animals;
+import com.geekbrain.animals.Cat;
+import com.geekbrain.animals.Dog;
+import com.geekbrain.animals.Horse;
+*/
+
+package com.geekbrain;
+
+import com.geekbrain.animals.Animals;
+import com.geekbrain.animals.Cat;
+import com.geekbrain.animals.Dog;
+import com.geekbrain.animals.Horse;
 
 public class MainApp {
   public static void main(String[] args) {
@@ -15,7 +24,7 @@ public class MainApp {
     Cat cat2 = new Cat("Mursik");
     Horse hr1 = new Horse("Mustag");
 
-    Animals[] zveri = {dog1, dog2, dog3, cat1, cat2,hr1};
+    Animals[] zveri = {dog1, dog2, dog3, cat1, cat2, hr1};
 
     System.out.println("Всего зверей: " + zveri.length);
     System.out.println("Котов: " + Cat.getCnt());
@@ -26,6 +35,7 @@ public class MainApp {
       an.run(1000);
       an.swim(100);
       an.swim(2000);
+
     }
   }
 }

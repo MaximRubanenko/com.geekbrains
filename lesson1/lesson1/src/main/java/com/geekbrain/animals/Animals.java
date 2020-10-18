@@ -1,4 +1,4 @@
-package com.geekbrain;
+package com.geekbrain.animals;
 
 public abstract class Animals {
   public Animals(){
