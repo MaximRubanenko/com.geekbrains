@@ -1,9 +1,3 @@
-/*
-import com.geekbrain.animals.Animals;
-import com.geekbrain.animals.Cat;
-import com.geekbrain.animals.Dog;
-import com.geekbrain.animals.Horse;
-*/
 
 package com.geekbrain;
 
