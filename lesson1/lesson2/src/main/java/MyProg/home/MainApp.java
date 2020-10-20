@@ -2,25 +2,25 @@ package MyProg.home;
 
 public class MainApp {
   public static void main(String[] args) {
-    System.out.println("Starting...");
+    System.out.println("Starting...1");
 
     Wall wall1 = new Wall(1);
     Wall wall2 = new Wall(2);
     Wall wall3 = new Wall(3);
 
-    
-    Human man1 = new Human(30,3);
-    Human man2 = new Human(20,2);
-    Human man3 = new Human(10,1);
 
+    Partisipant man1 = new Partisipant(30,3);
+    Partisipant man2 = new Partisipant(20,2);
+    Partisipant man3 = new Partisipant(10,1);
 
     Obstacle[] obs = { wall1, wall2, wall3};
-    Human[] people = {man1, man2, man3};
+    Partisipant[] parts = {man1, man2, man3};
 
-    for (Human h : people){
+
+    for (Partisipant p : parts){
       for (Obstacle o : obs )
       {
-
+        // if (!o.overcome(p)) break;
       }
     }
 
